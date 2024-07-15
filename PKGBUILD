@@ -1,5 +1,6 @@
 # Maintainer: y-not-u <voganwong@hotmail.com>
 
+pkgbase=msty
 pkgname=msty-bin
 _pkgname="${pkgname%-bin}"
 pkgver=1.0.3
