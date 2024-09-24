@@ -4,14 +4,14 @@ pkgbase=msty
 pkgname=msty-bin
 _pkgname="${pkgname%-bin}"
 pkgver=1.2.2
-pkgrel=1
+pkgrel=2
 pkgdesc="The easiest way to use local and online AI models"
 arch=('x86_64')
 url="https://msty.app"
 license=('custom')
 depends=()
 options=('!strip')
-source=("$pkgname-$pkgver.AppImage::https://assets.msty.app/Msty_x86_64.AppImage"
+source=("$pkgname-$pkgver.AppImage::https://assets.msty.app/linux/amd64/Msty_x86_64_amd64.AppImage"
     "$_pkgname.desktop"
     "$_pkgname.png")
 sha256sums=('SKIP'
