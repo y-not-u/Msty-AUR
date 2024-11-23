@@ -11,7 +11,7 @@ url="https://msty.app"
 license=('custom')
 depends=()
 options=('!strip')
-source=("$pkgname-$pkgver.AppImage::https://assets.msty.app/linux/amd64/Msty_x86_64_amd64.AppImage"
+source=("$pkgname-$pkgver.AppImage::https://assets.msty.app/prod/latest/linux/amd64/Msty_x86_64_amd64.AppImage"
     "$_pkgname.desktop"
     "$_pkgname.png")
 sha256sums=('SKIP'
