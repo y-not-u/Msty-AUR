@@ -3,7 +3,7 @@
 pkgbase=msty
 pkgname=msty-bin
 _pkgname="${pkgname%-bin}"
-pkgver=1.2.5
+pkgver=1.3.2
 pkgrel=1
 pkgdesc="The easiest way to use local and online AI models"
 arch=('x86_64')
